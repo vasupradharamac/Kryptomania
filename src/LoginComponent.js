@@ -40,6 +40,7 @@ function LoginComp(){
             <div className="form-group"><input className="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email" onChange={onUserChange.bind(this)} value={username}/></div>
             <p>Password:</p>
             <div className="form-group"><input className="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Password" name="password" onChange={onPassChange.bind(this)} value={pass} /></div>
+            <br />
             <button className="btn btn-primary btn-block text-white btn-user" type="submit">Login</button>
         </form>
         <div className="text-center"><a className="small" href="forgot-password.html">Forgot Password?</a></div>
