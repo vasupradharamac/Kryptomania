@@ -1,8 +1,8 @@
 ## Screenshots of the application:
 
-![image](https://user-images.githubusercontent.com/66957811/142736137-6ab2b96a-913d-424c-9a8c-ab378e59b21a.png)
+![image](https://user-images.githubusercontent.com/66957811/142736210-656b6295-583f-4daf-b4ee-9fa722732514.png)
 
-![image](https://user-images.githubusercontent.com/66957811/142736183-6a168ae9-5602-4ea1-adab-3f5f25112c2d.png)
+![image](https://user-images.githubusercontent.com/66957811/142736204-2729b17f-1af2-43bd-96c9-56a36f2ef0e3.png)
 
 
 ## Procedure to clone and run the application:
@@ -25,7 +25,7 @@ Then finally, run `npm start` command to start the development server.
 
 Kryptomania has a login page which allows the user to login into their account.
 
-Please make sure to use the below credentials to access the app.
+Please make sure to use the provided credentials to access the app.
 USERNAME: `example@gmail.com`
 PASSWORD: `adminpass`
 
