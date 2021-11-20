@@ -31,6 +31,10 @@ function LoginComp(){
         <div className="text-center" style={{color:'white'}}>
             <h4 className="text-light mb-4" style={{color:'white'}}>Welcome to Kryptomania!</h4>
         </div>
+        <div className="text-center" style={{color:'white'}}>
+            <h4 className="text-light mb-4" style={{color:'white', "fontSize": "15px"}}>Please use "example@gmail.com" as username and "adminpass" as the password</h4>
+            <br/> <br/>    
+        </div>
         <form className="user" onSubmit={checkLogin} >
             <p>Username:</p>
             <div className="form-group"><input className="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email" onChange={onUserChange.bind(this)} value={username}/></div>
