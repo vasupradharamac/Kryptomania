@@ -38,9 +38,9 @@ Link to live website: (https://vasu-kryptomania.herokuapp.com/home)
 
 ## API information:
 
-The API used in this application to fetch and render coin data is: "(https://stg.walrusmoney.com)".
+The API used in this application to fetch and render coin data is: `https://stg.walrusmoney.com`.
 
-The icons for the coin has been rendered into "(https://stg.walrusmoney.com/rwd/layout/1)". Hence it is adviced to not test this API using `PUT` method on postman.
+The icons for the coin has been rendered into `https://stg.walrusmoney.com/rwd/layout/1`. Hence it is adviced to not test this API using `PUT` method on postman.
 
 ## Method used to implement sockets:
 
