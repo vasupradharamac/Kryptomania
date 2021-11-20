@@ -15,7 +15,7 @@ This application gets data from nomics (A cryptocurrency and bitcoin API).
 
 The icons are colleted using "react-ions".
 
-Kryptomania can be cloned using `git clone https://github.com/vasupradharamachanrdan/Ticker_App.git` command into a new folder.
+Kryptomania can be cloned using `https://github.com/vasupradharamachanrdan/Kryptomania.git` command into a new folder.
 
 Make sure to delete the `package-lock.json` first and then use the command, `npm update` to update the changes locally on your PC.
 
@@ -34,7 +34,7 @@ PASSWORD: `adminpass`
 
 The application has been deployed in heroku using heroku CLI.
 
-Link to live website: (https://vasu-kryptomania.herokuapp.com/home)
+Link to live website: (https://vasu-kryptomania.herokuapp.com/)
 
 ## API information:
 
