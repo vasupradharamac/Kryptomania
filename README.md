@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## Screenshots of the application:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://user-images.githubusercontent.com/66957811/142736137-6ab2b96a-913d-424c-9a8c-ab378e59b21a.png)
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/66957811/142736183-6a168ae9-5602-4ea1-adab-3f5f25112c2d.png)
 
-In the project directory, you can run:
 
-### `yarn start`
+## Procedure to clone and run the application:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Kryptomania is a Ticker application that shows the current market value of coins with the percentage variation.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The coins are collectively arranged in such a way that the users can identify trending coins, the ones that are ideal for new investors and the non-trending coins.
 
-### `yarn test`
+This application gets data from nomics (A cryptocurrency and bitcoin API).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The icons are colleted using "react-ions".
 
-### `yarn build`
+Kryptomania can be cloned using `git clone https://github.com/vasupradharamachanrdan/Ticker_App.git` command into a new folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure to delete the `package-lock.json` first and then use the command, `npm update` to update the changes locally on your PC.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Then finally, run `npm start` command to start the development server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Login Credentials:
 
-### `yarn eject`
+Kryptomania has a login page which allows the user to login into their account.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Please make sure to use the below credentials to access the app.
+USERNAME: `example@gmail.com`
+PASSWORD: `adminpass`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Live link to the website:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The application has been deployed in heroku using heroku CLI.
 
-## Learn More
+Link to live website: (https://vasu-kryptomania.herokuapp.com/home)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## API information:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The API used in this application to fetch and render coin data is: "(https://stg.walrusmoney.com)".
 
-### Code Splitting
+The icons for the coin has been rendered into "(https://stg.walrusmoney.com/rwd/layout/1)". Hence it is adviced to not test this API using `PUT` method on postman.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Method used to implement sockets:
 
-### Analyzing the Bundle Size
+The API socket has been connected to the server using the "WebSocket Request" on Postman.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Procedure:
 
-### Making a Progressive Web App
+- New -> WebSocketRequest
+- change the type from Raw to Socket.io
+- in settings change the version to v2
+- Add the url -> https://stg.walrusmoney.com
+- Connect to the server
+- Add listener as tickerArray
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
