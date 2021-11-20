@@ -19,7 +19,7 @@ Then finally, run `npm start` command to start the development server.
 
 ## Login Credentials:
 
-Kryptomania has a login page which allows the user to login into their account.
+Kryptomania has a login functionality that allows the users to access the application.
 
 Please make sure to use the provided credentials to access the app.
 USERNAME: `example@gmail.com`
