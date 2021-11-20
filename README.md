@@ -11,10 +11,6 @@ Kryptomania is a Ticker application that shows the current market value of coins
 
 The coins are collectively arranged in such a way that the users can identify trending coins, the ones that are ideal for new investors and the non-trending coins.
 
-This application gets data from nomics (A cryptocurrency and bitcoin API).
-
-The icons are colleted using "react-ions".
-
 Kryptomania can be cloned using `https://github.com/vasupradharamachanrdan/Kryptomania.git` command into a new folder.
 
 Make sure to delete the `package-lock.json` first and then use the command, `npm update` to update the changes locally on your PC.
