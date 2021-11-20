@@ -51,4 +51,6 @@ Procedure:
 - Connect to the server
 - Add listener as tickerArray
 
+## PS:
 
+The deployed version of the application runs a bit slow in terms of rending the API data.
