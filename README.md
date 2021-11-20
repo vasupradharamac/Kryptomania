@@ -1,6 +1,6 @@
 ## Screenshots of the application:
 
-![image](https://user-images.githubusercontent.com/66957811/142736210-656b6295-583f-4daf-b4ee-9fa722732514.png)
+![image](https://user-images.githubusercontent.com/66957811/142737564-7db9f3be-d39d-4f7e-ba4d-475e02f17ac6.png)
 
 ![image](https://user-images.githubusercontent.com/66957811/142736204-2729b17f-1af2-43bd-96c9-56a36f2ef0e3.png)
 
