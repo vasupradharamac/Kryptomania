@@ -33,6 +33,7 @@ function LoginComp(){
         </div>
         <div className="text-center" style={{color:'white'}}>
             <h1 className="text-light mb-4" style={{color:'white', "fontSize": "15px"}}>The API that the app uses has currently been shut down, so the app is not functional. please refer Github documentation for this project</h1>
+              <a href="https://github.com/vasupradharamac/Kryptomania">Link to Github documentation</a>
             <h4 className="text-light mb-4" style={{color:'white', "fontSize": "15px"}}>Please use "example@gmail.com" as username and "adminpass" as the password</h4>
             <br/> <br/>    
         </div>
